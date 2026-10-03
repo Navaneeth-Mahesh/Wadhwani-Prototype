@@ -1,0 +1,687 @@
+# ============================================================
+
+# OS / SYSTEM
+
+# ============================================================
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# Linux
+
+*~
+.directory
+.nfs*
+
+# ============================================================
+
+# IDE / EDITORS
+
+# ============================================================
+
+# VS Code
+
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IntelliJ / JetBrains
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+
+# Sublime Text
+
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Cursor
+
+.cursor/
+
+# ============================================================
+
+# ENVIRONMENT VARIABLES / SECRETS
+
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+secrets/
+secret/
+credentials/
+credentials.json
+service-account.json
+
+# ============================================================
+
+# LOGS
+
+# ============================================================
+
+*.log
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+debug.log
+
+# ============================================================
+
+# NODE.JS / JAVASCRIPT / TYPESCRIPT
+
+# ============================================================
+
+node_modules/
+.npm/
+.pnpm-store/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npmrc.local
+
+# Package manager caches
+
+.yarn/
+.yarn-cache/
+.pnp.*
+!.pnp.cjs
+!.pnp.data.json
+
+# Build output
+
+dist/
+build/
+out/
+
+# Framework caches
+
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.vercel/
+.netlify/
+
+# Vite
+
+.vite/
+
+# TypeScript
+
+*.tsbuildinfo
+
+# ============================================================
+
+# REACT / NEXT.JS
+
+# ============================================================
+
+.next/
+next-env.d.ts
+
+# Next.js generated files
+
+.next/
+out/
+
+# React build
+
+build/
+
+# ============================================================
+
+# PYTHON
+
+# ============================================================
+
+# Byte-compiled / optimized
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# C extensions
+
+*.so
+
+# Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python test / coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pyre/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+ruff_cache/
+
+# Python environments
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# UV
+
+.uv/
+uv.lock
+
+# Poetry
+
+poetry.lock
+
+# Pipenv
+
+Pipfile.lock
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Python packaging
+
+*.whl
+
+# ============================================================
+
+# FASTAPI
+
+# ============================================================
+
+# Local development files
+
+.fastapi/
+uploads/
+tmp/
+temp/
+
+# ============================================================
+
+# DATABASE
+
+# ============================================================
+
+# SQLite
+
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL dumps
+
+*.sql
+*.dump
+*.backup
+
+# Local database directories
+
+postgres/
+database/
+db_data/
+
+# Redis
+
+dump.rdb
+
+# ============================================================
+
+# ALEMBIC
+
+# ============================================================
+
+# Do NOT ignore migrations!
+
+# alembic/versions/ should normally be committed.
+
+# Local Alembic cache
+
+alembic/**pycache**/
+
+# ============================================================
+
+# AI / ML
+
+# ============================================================
+
+# Model files
+
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+*.ggml
+*.tflite
+*.h5
+*.keras
+
+# ML datasets
+
+datasets/
+dataset/
+data/
+*.csv
+*.parquet
+*.feather
+
+# Vector databases
+
+chroma/
+chromadb/
+.chroma/
+vectorstore/
+vector_store/
+faiss_index/
+faiss/
+qdrant/
+weaviate/
+
+# AI caches
+
+.huggingface/
+.cache/
+transformers_cache/
+model_cache/
+
+# Generated AI files
+
+generated/
+generated_files/
+ai_generated/
+outputs/
+
+# ============================================================
+
+# UPLOADS / USER DATA
+
+# ============================================================
+
+uploads/
+upload/
+user_uploads/
+media/
+storage/
+
+# User-specific local data
+
+user_data/
+userdata/
+local_data/
+
+# Chat history / local memory
+
+chat_history/
+memory/
+memories/
+
+# Indexes
+
+indexes/
+index/
+file_index/
+
+# ============================================================
+
+# FRONTEND ASSETS GENERATED LOCALLY
+
+# ============================================================
+
+public/generated/
+public/uploads/
+public/temp/
+
+# ============================================================
+
+# TESTING
+
+# ============================================================
+
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Cypress
+
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# ============================================================
+
+# LINTING / FORMATTERS
+
+# ============================================================
+
+.eslintcache
+.stylelintcache
+.prettier-cache
+
+# ============================================================
+
+# DOCKER
+
+# ============================================================
+
+docker-compose.override.yml
+.docker/
+docker-data/
+docker-volumes/
+
+# Docker secrets
+
+docker-secrets/
+
+# ============================================================
+
+# TERRAFORM / INFRASTRUCTURE
+
+# ============================================================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ============================================================
+
+# CLOUD / DEPLOYMENT
+
+# ============================================================
+
+.vercel/
+.netlify/
+.serverless/
+.aws-sam/
+
+# Railway
+
+.railway/
+
+# Render
+
+.render/
+
+# ============================================================
+
+# CERTIFICATES / SECURITY
+
+# ============================================================
+
+*.pem
+*.key
+*.pub
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+ssh/
+certificates/
+
+# ============================================================
+
+# GENERATED DOCUMENTS / FILES
+
+# ============================================================
+
+*.tmp
+*.temp
+*.cache
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+*.pdf
+*.doc
+*.docx
+*.xlsx
+
+# ============================================================
+
+# MEDIA / LARGE LOCAL FILES
+
+# ============================================================
+
+# Uncomment these if media should NOT be committed:
+
+# *.mp4
+
+# *.mov
+
+# *.avi
+
+# *.mkv
+
+# *.webm
+
+# *.wav
+
+# *.mp3
+
+# *.flac
+
+# Local media directories
+
+recordings/
+screenshots/
+screen-recordings/
+
+# ============================================================
+
+# GENERATED CODE
+
+# ============================================================
+
+generated-code/
+generated_types/
+_codegen/
+
+# ============================================================
+
+# CACHE
+
+# ============================================================
+
+.cache/
+.cache-loader/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.sass-cache/
+
+# ============================================================
+
+# TEMPORARY FILES
+
+# ============================================================
+
+tmp/
+temp/
+.tmp/
+.temp/
+
+*.orig
+*.rej
+*.swp
+*.swo
+
+# ============================================================
+
+# LOCAL CONFIGURATION
+
+# ============================================================
+
+config.local.*
+settings.local.*
+local.config.*
+local.settings.*
+
+# ============================================================
+
+# BACKUPS
+
+# ============================================================
+
+*.backup
+*.bak
+*.old
+*.orig
+
+# ============================================================
+
+# GIT
+
+# ============================================================
+
+*.patch
+*.diff
+
+# ============================================================
+
+# LARGE FILE STORAGE
+
+# ============================================================
+
+# Git LFS lock files are normally tracked.
+
+# Do not ignore *.gitattributes.
+
+# ============================================================
+
+# OPTIONAL: LOCAL DEVELOPMENT SCRIPTS
+
+# ============================================================
+
+scripts/local/
+tools/local/
+
+# ============================================================
+
+# IMPORTANT FILES TO KEEP TRACKED
+
+# ============================================================
+
+# Make sure these remain committed:
+
+# .env.example
+
+# .gitignore
+
+# README.md
+
+# package.json
+
+# package-lock.json / pnpm-lock.yaml / yarn.lock
+
+# requirements.txt / pyproject.toml
+
+# alembic.ini
+
+# alembic/versions/*
+
+# Dockerfile
+
+# docker-compose.yml
+
+# .gitattributes
+dist
+node_modules
