@@ -344,7 +344,8 @@ alembic/**pycache**/
 
 datasets/
 dataset/
-data/
+/data/
+!src/data/
 *.csv
 *.parquet
 *.feather
